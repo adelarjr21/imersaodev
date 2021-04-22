@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Calculadora</title>
+</head>
+
+<body>
+
+  <!-- Calculadora -->
+  <div id="calculadora">
+    <div class="container">
+      <h1>Calculadora</h1>
+      <br />
+      <div>
+        <input type="number" name="valor1" id="valor1" placeholder="Primeiro Valor" />
+      </div>
+      <br>
+      <div>
+        <select name="operacao" id="operacao">
+          <option selected disabled value="">Operação</option>
+          >
+          <option value="somar">Somar</option>
+          <option value="subtrair">Subtrair</option>
+          <option value="multiplicar">Multiplicar</option>
+          <option value="dividir">Dividir</option>
+        </select>
+      </div>
+      <div>
+        <br>
+        <input type="number" name="valor2" id="valor2" placeholder="Segundo Valor" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <button onclick="calcular()">Calcular</button>
+      </div>
+      <br />
+      <div id="output"></div>
+      <br>
+      <button class="btnReload" onclick="window.location.reload()">Novo cálculo</button>
+    </div>
+  </div>
+
+  <footer id="foot">
+    <div class="container">
+      <p>
+        ImersãoDev | Adelar Junior 2021 &copy Todos os direitos reservados
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

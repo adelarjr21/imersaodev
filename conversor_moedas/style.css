@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+}
+
+input {
+  height: 50px;
+  width: 200px;
+}
+
+.container {
+  overflow: hidden;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.title-label {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.valorInserido1,
+.valorInserido2 {
+  text-align: center;
+}
+
+.output1,
+.output2 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+#converte-moeda {
+  display: flex;
+  color: #222;
+  height: 95.9vh;
+  text-align: center;
+  justify-content: center;
+}
+
+#converte-moeda .container {
+  border: 10px solid #fff;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#converte-moeda h1 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 5rem;
+}
+
+#foot {
+  text-align: center;
+  font-weight: bolder;
+  color: #222;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}

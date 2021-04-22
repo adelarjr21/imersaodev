@@ -1,0 +1,54 @@
+body {
+    /* background-color: rgba(255, 87, 34);
+     */
+     background-image: url('https://uploads-ssl.webflow.com/5c59b6b1db2a6b25080446c8/601a9577cf1769894b17fd8c_matrix-02.jpg');
+	background-size: cover;
+	backgroun-repeat: no-repeat;
+	background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: block;
+    border: 1px solid #222;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 15px;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.8);
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.image-header {
+    background-size: cover;
+    background-image: url('https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/code-editoren-t.jpg');
+    height: 80px;
+    border-radius: 5px;
+}
+
+#insignias {
+    padding: 15px;
+    border: 1px solid #222;
+    background-color: #bac3d6;
+    border-radius: 5px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    border: 8px solid white;
+}

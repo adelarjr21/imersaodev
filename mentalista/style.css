@@ -1,0 +1,24 @@
+body {
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+h1, p {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.5);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

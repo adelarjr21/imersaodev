@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Supertrunfo</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="page-title">Super Trunfo</h1>
+
+        <button id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+            <h2>Escolha seu atributo:</h2>
+            <div class="wrapper">
+                <div id="placar"></div> <br>
+                <div id="quantidade-cartas"></div> <br>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <button class="button-jogador" type="button" id="btnJogar" disabled="false">Jogar</button>
+            </div>
+            <div id="resultado"></div>
+            <button type="button" id="btnProximaRodada" disabled>Próxima Rodada</button>
+            <button onclick="window.location.reload()">Novo Jogo</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
